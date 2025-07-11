@@ -1,0 +1,2462 @@
+<!DOCTYPE html>
+
+<html lang="en" class="ltr" dir="ltr">
+
+
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Search Jobs</title>
+
+    <meta name="Description" content="Find best Jobs in Pakistan, jobs listings and job opportunities on ROZEE.PK. Browse more than 100K jobs in Pakistan and apply for free! Jobsportal is Pakistan's leading job website where more than 52K top companies are posting jobs">
+
+    <meta name="Keywords" content="Jobs in Pakistan, Jobs Pakistan, Jobs, Careers, Recruitment, Employment, Hiring, Banking, CVs, Career, Finance, IT, Marketing, Online Jobs, Opportunity,Pakistan, Resume, Work, naukri, rizq, Rozi">
+
+    <meta name="robots" content="ALL, FOLLOW,INDEX" />
+
+    <!-- Fav Icon -->
+
+    <link rel="shortcut icon" href="https://job.cloudhosts.in/favicon.ico">
+
+       <!-- Owl carousel -->
+
+    <link href="https://job.cloudhosts.in/css/owl.carousel.css" rel="stylesheet">
+    <link href="https://job.cloudhosts.in/css/jquery-ui.min.css" rel="stylesheet">
+
+    <!-- Slider -->
+    <link href="https://job.cloudhosts.in/js/revolution-slider/css/settings.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+
+    <link href="https://job.cloudhosts.in/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link href="https://job.cloudhosts.in/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom Style -->
+
+    <link href="https://job.cloudhosts.in/css/main.css" rel="stylesheet">
+
+    
+    <link href="https://job.cloudhosts.in/admin_assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://job.cloudhosts.in/admin_assets/global/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://job.cloudhosts.in/admin_assets/global/plugins/select2/css/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+
+          <script src="https://job.cloudhosts.in/js/html5shiv.min.js"></script>
+
+          <script src="https://job.cloudhosts.in/js/respond.min.js"></script>
+
+        <![endif]-->
+
+    
+<style type="text/css">
+
+    .searchList li .jobimg {
+
+        min-height: 80px;
+
+    }
+
+    .hide_vm_ul{
+
+        height:100px;
+
+        overflow:hidden;
+
+    }
+
+    .hide_vm{
+
+        display:none !important;
+
+    }
+
+    .view_more{
+
+        cursor:pointer;
+
+    }
+
+</style>
+
+
+
+
+    
+
+    
+
+
+
+</head>
+
+
+
+<body>
+
+     
+
+<!-- Header start --> 
+
+<div class="header" id="siteheader">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-12 col-12"> <a href="https://job.cloudhosts.in" class="logo"><img src="https://job.cloudhosts.in/sitesetting_images/thumb/jobs-portal-1743764253-714.png" alt="JOBS PORTAL" /></a>
+                <div class="navbar-header navbar-light">
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#nav-main" aria-controls="nav-main" aria-expanded="false" aria-label="Toggle navigation"> <i class="fas fa-bars"></i></button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-lg-10 col-md-12 col-12"> 
+
+                <!-- Nav start -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+					
+                    <div class="navbar-collapse collapse" id="nav-main">
+                    <button class="close-toggler" type="button" data-toggle="offcanvas"> <span><i class="fas fa-times-circle" aria-hidden="true"></i></span> </button>
+
+                        <ul class="navbar-nav">
+              <li class="nav-item "><a href="https://job.cloudhosts.in" class="nav-link">Home</a> </li>
+							
+                            
+							                  <li class="nav-item active">
+                      <a href="https://job.cloudhosts.in/search-jobs" class="nav-link">Jobs</a>
+                  </li>
+              
+
+
+
+              <li class="nav-item ">
+                  <a href="https://job.cloudhosts.in/companies" class="nav-link">Companies</a>
+              </li>
+
+                           
+                            
+							<li class="nav-item "><a href="https://job.cloudhosts.in/blog" class="nav-link">Blog</a> </li>
+                            <li class="nav-item "><a href="https://job.cloudhosts.in/contact-us" class="nav-link">Contact Us</a> </li>
+                             
+                            
+                                                        <li class="nav-item"><a href="javascript:void();" data-bs-toggle="modal" data-bs-target="#headlogin" class="nav-link">Sign in</a> </li>
+							              <li class="nav-item register"><a href="javascript:void();" data-bs-toggle="modal" data-bs-target="#headregister" class="nav-link register">Register</a> </li>                            
+                                                        <li class="dropdown userbtn"><a href="https://job.cloudhosts.in"><img src="https://job.cloudhosts.in/images/lang.png" alt="Change Language" class="userimg" /></a>
+                                <ul class="dropdown-menu">
+                                                                        <li><a href="javascript:;" onclick="event.preventDefault(); document.getElementById('locale-form-en').submit();" class="nav-link">English</a>
+                                        <form id="locale-form-en" action="https://job.cloudhosts.in/set-locale" method="POST" style="display: none;">
+                                            <input type="hidden" name="_token" value="lIWj0dwtsTeqaBJdvMNofp2OUnm8yTXxWY9VUhw0" autocomplete="off">
+                                            <input type="hidden" name="locale" value="en"/>
+                                            <input type="hidden" name="return_url" value="https://job.cloudhosts.in/search-jobs"/>
+                                            <input type="hidden" name="is_rtl" value="0"/>
+                                        </form>
+                                    </li>
+                                                                    </ul>
+                            </li>
+                        </ul>
+
+                        <!-- Nav collapes end --> 
+
+                    </div>
+                    <div class="clearfix"></div>
+                </nav>
+
+                <!-- Nav end --> 
+
+            </div>
+        </div>
+
+        <!-- row end --> 
+
+    </div>
+
+    <!-- Header container end --> 
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Login -->
+<div class="modal fade mypremodal" id="headlogin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       
+      <div class="modal-body">
+        <div class="preuserinfo">
+        <h3>Login as</h3>
+        <a href="https://job.cloudhosts.in/login" class="btn btn-yellow mt-3">Job Seeker</a>
+        <a href="https://job.cloudhosts.in/company-login" class="btn btn-dark mt-3">Company</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- Register -->
+<div class="modal fade mypremodal" id="headregister" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       
+      <div class="modal-body">
+        <div class="preuserinfo p-2 pb-4">
+        <h3>Register as a</h3>
+        <a href="https://job.cloudhosts.in/register" class="btn btn-yellow mt-3">Job Seeker</a>
+        <a href="https://job.cloudhosts.in/company-register" class="btn btn-dark mt-3">Company</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade mypremodal" id="preresume" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       
+      <div class="modal-body">
+        <div class="preuserinfo">
+        <h3>Login or register to create your Resume/CV</h3>
+        <a href="https://job.cloudhosts.in/login" class="btn btn-yellow mt-3">Login</a>
+        <a href="https://job.cloudhosts.in/register" class="btn btn-dark mt-3">Register</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="modal fade mypremodal" id="prejobpost" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       
+      <div class="modal-body">
+        <div class="preuserinfo ps-0 pe-0">
+        <h3>Welcome to Employer Portal</h3>
+        <p>Earn our user's trust. Get your account approved to start posting jobs</p>
+
+                <a href="https://job.cloudhosts.in/company-login" class="btn btn-yellow mt-3">Login</a>
+        <a href="https://job.cloudhosts.in/company-register" class="btn btn-dark mt-3">Register</a>
+
+       
+        
+
+
+
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="mobilenav">
+  <ul>
+  <li><a href="https://job.cloudhosts.in">
+    <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#5f6368"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+    <span>Home</span>
+    </a></li>
+
+
+                      <li>
+      <a href="https://job.cloudhosts.in/search-jobs">
+      <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#5f6368"><path d="M160-120q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160Zm0-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z"/></svg>
+      <span>Jobs</span>  
+    </a>
+    </li>
+  
+
+
+
+        <li>
+      <a href="https://job.cloudhosts.in/companies">
+    <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#5f6368"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+    <span>Companies</span>
+    </a>
+    </li>
+
+
+    <li>
+      <a href="javascript:void();" data-bs-toggle="modal" data-bs-target="#headlogin">
+    <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#5f6368"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+    <span>Login</span>
+    </a>
+    </li>
+    
+
+    
+  
+
+
+
+  </ul>
+</div>
+
+
+
+
+
+
+        
+
+ 
+
+
+ 
+
+<!-- Header end --> 
+
+
+
+<script>
+    var elements = document.querySelectorAll('.popmessage, .bgoverlay');
+
+if (elements.length > 0) {
+    setTimeout(function() {
+        elements.forEach(function(element) {
+            element.style.display = 'none';
+        });
+    }, 5000);
+}
+
+</script>
+<div class="pageSearch">
+<form action="https://job.cloudhosts.in/search-jobs" method="get">
+	<!-- Page Title start -->
+	<div class="container">
+
+			
+				<div class="row justify-content-center">
+					<div class="col-lg-7">
+
+												<h3 class="mb-3">One million success stories. Start yours today.</h3>				
+						
+						<div class="searchform">
+						<div class="input-group">
+							<input type="text"  name="search" id="jbsearch" value="" class="form-control" placeholder="Enter Skills or job title" autocomplete="off" />
+							
+							<button type="submit" class="btn"><i class="fas fa-search"></i></button>
+						</div>
+						</div>
+					</div>
+				</div>
+			
+
+	</div>
+	<!-- Page Title end -->
+</form>
+</div>
+
+
+
+<!-- Inner Page Title end -->
+
+<div class="listpgWraper">
+
+    <div class="container">
+
+        
+
+        <form action="https://job.cloudhosts.in/search-jobs" method="get">
+
+            <!-- Search Result and sidebar start -->
+
+            <div class="row"> 
+
+                <div class="col-lg-3"> 
+	<div class="jobreqbtn">
+		
+	
+		<a href="https://job.cloudhosts.in/my-profile#cvs" class="btn"><i class="fa fa-file-text" aria-hidden="true"></i> Upload Your Resume</a>
+		</div>
+
+
+      <a href="javascript:void();" class="filterjobsnav">
+      <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#5f6368"><path d="M440-160q-17 0-28.5-11.5T400-200v-240L168-736q-15-20-4.5-42t36.5-22h560q26 0 36.5 22t-4.5 42L560-440v240q0 17-11.5 28.5T520-160h-80Zm40-308 198-252H282l198 252Zm0 0Z"/></svg>
+      Filter Jobs
+      </a>  
+
+
+    <!-- Side Bar start -->
+    <div class="sidebar" id="filterjobs">
+        <input type="hidden" name="search" value=""/>
+        
+        <a href="javascript:void();" class="close-filterjobs mb-3">
+        <svg xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 -960 960 960" width="36px" fill="#999"><path d="m336-280 144-144 144 144 56-56-144-144 144-144-56-56-144 144-144-144-56 56 144 144-144 144 56 56ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg>
+        </a>
+
+        <!-- Jobs By Title -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Title</h4>
+            <ul class="optionlist view_more_ul">
+                                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_0" value="UI/UX Designer"  >
+                    <label for="job_title_0"></label>
+                    UI/UX Designer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_1" value="IOS Developer"  >
+                    <label for="job_title_1"></label>
+                    IOS Developer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_2" value="Electrical Engineer"  >
+                    <label for="job_title_2"></label>
+                    Electrical Engineer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_3" value="Laravel Developer"  >
+                    <label for="job_title_3"></label>
+                    Laravel Developer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_4" value="PHP Developer Required"  >
+                    <label for="job_title_4"></label>
+                    PHP Developer Required <span>2</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_5" value="Php Developer Required"  >
+                    <label for="job_title_5"></label>
+                    Php Developer Required <span>2</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_6" value="Web Designer"  >
+                    <label for="job_title_6"></label>
+                    Web Designer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_7" value="Frontend Developer"  >
+                    <label for="job_title_7"></label>
+                    Frontend Developer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_8" value="Wordpress Developer"  >
+                    <label for="job_title_8"></label>
+                    Wordpress Developer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_9" value="Senior Php Programer"  >
+                    <label for="job_title_9"></label>
+                    Senior Php Programer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_10" value="Project Manager"  >
+                    <label for="job_title_10"></label>
+                    Project Manager <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_11" value="Graphic Designer"  >
+                    <label for="job_title_11"></label>
+                    Graphic Designer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_12" value="Medicine Supervisor"  >
+                    <label for="job_title_12"></label>
+                    Medicine Supervisor <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_13" value="SEO Expert"  >
+                    <label for="job_title_13"></label>
+                    SEO Expert <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_14" value="Dot Developer"  >
+                    <label for="job_title_14"></label>
+                    Dot Developer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_15" value="Full Stack Designer"  >
+                    <label for="job_title_15"></label>
+                    Full Stack Designer <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_16" value="Graphic Designer Required"  >
+                    <label for="job_title_16"></label>
+                    Graphic Designer Required <span>1</span> </li>
+
+                                <li>
+                                        <input type="checkbox" name="job_title[]" id="job_title_17" value="UI UX Designer Required"  >
+                    <label for="job_title_17"></label>
+                    UI UX Designer Required <span>1</span> </li>
+
+                                            </ul>
+            <!-- title end --> 
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+
+        <!-- Jobs By Country -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Country</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="country_id[]" id="country_166" value="166" >
+                    <label for="country_166"></label>
+                    Pakistan <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="country_id[]" id="country_231" value="231" >
+                    <label for="country_231"></label>
+                    United States of America <span>16</span> </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By Country end--> 
+
+
+        <!-- Jobs By State -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By State</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_2724" value="2724" >
+                    <label for="state_2724"></label>
+                    Islamabad - Federal Capital Area <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3931" value="3931" >
+                    <label for="state_3931"></label>
+                    Georgia <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3930" value="3930" >
+                    <label for="state_3930"></label>
+                    Florida <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3926" value="3926" >
+                    <label for="state_3926"></label>
+                    Colorado <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3919" value="3919" >
+                    <label for="state_3919"></label>
+                    Alabama <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3928" value="3928" >
+                    <label for="state_3928"></label>
+                    Delaware <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3935" value="3935" >
+                    <label for="state_3935"></label>
+                    Indiana <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3952" value="3952" >
+                    <label for="state_3952"></label>
+                    New Hampshire <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3960" value="3960" >
+                    <label for="state_3960"></label>
+                    Oklahoma <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3932" value="3932" >
+                    <label for="state_3932"></label>
+                    Hawaii <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3922" value="3922" >
+                    <label for="state_3922"></label>
+                    Arkansas <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3975" value="3975" >
+                    <label for="state_3975"></label>
+                    Washington <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="state_id[]" id="state_3920" value="3920" >
+                    <label for="state_3920"></label>
+                    Alaska <span>1</span> </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By State end--> 
+
+
+        <!-- Jobs By City -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By City</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_48665" value="48665" >
+                    <label for="city_48665"></label>
+                    Islamabad <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_43929" value="43929" >
+                    <label for="city_43929"></label>
+                    Atlanta <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_43593" value="43593" >
+                    <label for="city_43593"></label>
+                    Aventura <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_43396" value="43396" >
+                    <label for="city_43396"></label>
+                    Canon City <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_42594" value="42594" >
+                    <label for="city_42594"></label>
+                    Alabaster <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_43579" value="43579" >
+                    <label for="city_43579"></label>
+                    Milton <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_44403" value="44403" >
+                    <label for="city_44403"></label>
+                    Clarksville <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_47610" value="47610" >
+                    <label for="city_47610"></label>
+                    Barrington <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_45830" value="45830" >
+                    <label for="city_45830"></label>
+                    Durant <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_44078" value="44078" >
+                    <label for="city_44078"></label>
+                    Kaneohe Station <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_42762" value="42762" >
+                    <label for="city_42762"></label>
+                    El Dorado <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_46777" value="46777" >
+                    <label for="city_46777"></label>
+                    Blaine <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_42603" value="42603" >
+                    <label for="city_42603"></label>
+                    Bessemer <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="city_id[]" id="city_42674" value="42674" >
+                    <label for="city_42674"></label>
+                    Fairbanks <span>1</span> </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By City end--> 
+
+        <!-- Jobs By Experience -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Experience</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="job_experience_id[]" id="job_experience_4" value="4" >
+                    <label for="job_experience_4"></label>
+                    Senior Level (8+ years experince) <span>5</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_experience_id[]" id="job_experience_5" value="5" >
+                    <label for="job_experience_5"></label>
+                    Executive (VP, Deputy General Manager) <span>3</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_experience_id[]" id="job_experience_3" value="3" >
+                    <label for="job_experience_3"></label>
+                    Mid Level (2+  -5 years experience) <span>3</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_experience_id[]" id="job_experience_6" value="6" >
+                    <label for="job_experience_6"></label>
+                    Senior Executive (CEO, Country Manager, General Manager) <span>5</span> </li>
+                                                                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By Experience end --> 
+
+        <!-- Jobs By Job Type -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Job Type</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="job_type_id[]" id="job_type_3" value="3" >
+                    <label for="job_type_3"></label>
+                    Full Time/Permanent <span>8</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_type_id[]" id="job_type_1" value="1" >
+                    <label for="job_type_1"></label>
+                    Contract <span>6</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_type_id[]" id="job_type_2" value="2" >
+                    <label for="job_type_2"></label>
+                    Freelance <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_type_id[]" id="job_type_4" value="4" >
+                    <label for="job_type_4"></label>
+                    Internship <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_type_id[]" id="job_type_5" value="5" >
+                    <label for="job_type_5"></label>
+                    Part Time <span>1</span> </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By Job Type end --> 
+
+        <!-- Jobs By Job Shift -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Job Shift</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="job_shift_id[]" id="job_shift_1" value="1" >
+                    <label for="job_shift_1"></label>
+                    First Shift (Day) <span>13</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_shift_id[]" id="job_shift_2" value="2" >
+                    <label for="job_shift_2"></label>
+                    Second Shift (Afternoon) <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_shift_id[]" id="job_shift_3" value="3" >
+                    <label for="job_shift_3"></label>
+                    Third Shift (Night) <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="job_shift_id[]" id="job_shift_4" value="4" >
+                    <label for="job_shift_4"></label>
+                    Rotating <span>1</span> </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By Job Shift end --> 
+
+        <!-- Jobs By Career Level -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Career Level</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="career_level_id[]" id="career_level_3" value="3" >
+                    <label for="career_level_3"></label>
+                    Experienced Professional <span></span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="career_level_id[]" id="career_level_2" value="2" >
+                    <label for="career_level_2"></label>
+                    Entry Level <span></span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="career_level_id[]" id="career_level_1" value="1" >
+                    <label for="career_level_1"></label>
+                    Department Head <span></span> </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By Career Level end --> 
+
+
+        <!-- Jobs By Degree Level -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Degree Level</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="degree_level_id[]" id="degree_level_4" value="4" >
+                    <label for="degree_level_4"></label>
+                    Bachelors <span>9</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="degree_level_id[]" id="degree_level_5" value="5" >
+                    <label for="degree_level_5"></label>
+                    Masters <span>3</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="degree_level_id[]" id="degree_level_3" value="3" >
+                    <label for="degree_level_3"></label>
+                    Intermediate/A-Level <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="degree_level_id[]" id="degree_level_2" value="2" >
+                    <label for="degree_level_2"></label>
+                    Matriculation/O-Level <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="degree_level_id[]" id="degree_level_8" value="8" >
+                    <label for="degree_level_8"></label>
+                    Certification <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="degree_level_id[]" id="degree_level_6" value="6" >
+                    <label for="degree_level_6"></label>
+                    MPhil/MS <span>1</span> </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By Degree Level end --> 
+
+
+        <!-- Jobs By Gender -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Gender</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="gender_id[]" id="gender_2" value="2" >
+                    <label for="gender_2"></label>
+                    Male <span>10</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="gender_id[]" id="gender_1" value="1" >
+                    <label for="gender_1"></label>
+                    Female <span>4</span> </li>
+                                                                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By Gender end --> 
+
+
+
+        <!-- Jobs By Industry -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Industry</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_32" value="32" >
+                    <label for="industry_32"></label>
+                    Fashion <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_31" value="31" >
+                    <label for="industry_31"></label>
+                    AutoMobile <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_41" value="41" >
+                    <label for="industry_41"></label>
+                    Courier/Logistics <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_28" value="28" >
+                    <label for="industry_28"></label>
+                    Electronics <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_1" value="1" >
+                    <label for="industry_1"></label>
+                    Information Technology <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_7" value="7" >
+                    <label for="industry_7"></label>
+                    Advertising/PR <span>2</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_24" value="24" >
+                    <label for="industry_24"></label>
+                    Travel/Tourism/Transportation <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_10" value="10" >
+                    <label for="industry_10"></label>
+                    Manufacturing <span>4</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_3" value="3" >
+                    <label for="industry_3"></label>
+                    Banking/Financial Services <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_11" value="11" >
+                    <label for="industry_11"></label>
+                    Education/Training <span>1</span> </li>
+                                                                                                <li>
+                    <input type="checkbox" name="industry_id[]" id="industry_38" value="38" >
+                    <label for="industry_38"></label>
+                    Health &amp; Fitness <span>1</span> </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By Industry end --> 
+
+        <!-- Jobs By Skill -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Skill</h4>
+            <ul class="optionlist view_more_ul">
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_15" value="15" >
+                    <label for="job_skill_15"></label>
+                    MySQL <span>4</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_16" value="16" >
+                    <label for="job_skill_16"></label>
+                    PHP <span>4</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_18" value="18" >
+                    <label for="job_skill_18"></label>
+                    Strong Communication skills <span>2</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_2" value="2" >
+                    <label for="job_skill_2"></label>
+                    Adobe Photoshop <span>5</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_6" value="6" >
+                    <label for="job_skill_6"></label>
+                    CSS <span>8</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_8" value="8" >
+                    <label for="job_skill_8"></label>
+                    HTML <span>8</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_10" value="10" >
+                    <label for="job_skill_10"></label>
+                    JavaScript <span>4</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_11" value="11" >
+                    <label for="job_skill_11"></label>
+                    Jquery <span>2</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_19" value="19" >
+                    <label for="job_skill_19"></label>
+                    WordPress <span>2</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_5" value="5" >
+                    <label for="job_skill_5"></label>
+                    Communication Skills <span>3</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_12" value="12" >
+                    <label for="job_skill_12"></label>
+                    Marketing <span>3</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_17" value="17" >
+                    <label for="job_skill_17"></label>
+                    Sales <span>1</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_7" value="7" >
+                    <label for="job_skill_7"></label>
+                    English Fluency <span>2</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_4" value="4" >
+                    <label for="job_skill_4"></label>
+                    COMMUNICATION <span>1</span> </li>
+                                                                
+                                <li>
+                    <input type="checkbox" name="job_skill_id[]" id="job_skill_1" value="1" >
+                    <label for="job_skill_1"></label>
+                    Adobe Illustrator <span>3</span> </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Jobs By Industry end --> 
+
+
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Functional Areas</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_633" value="633" >
+                    <label for="functional_area_id_633"></label>
+                    Information Technology <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_128" value="128" >
+                    <label for="functional_area_id_128"></label>
+                    Software &amp; Web Development <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_32" value="32" >
+                    <label for="functional_area_id_32"></label>
+                    Electronics Technician <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_144" value="144" >
+                    <label for="functional_area_id_144"></label>
+                    Web Developer <span>2</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_23" value="23" >
+                    <label for="functional_area_id_23"></label>
+                    Creative Design <span>3</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_28" value="28" >
+                    <label for="functional_area_id_28"></label>
+                    Database Administration (DBA) <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_8" value="8" >
+                    <label for="functional_area_id_8"></label>
+                    Advertising <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_14" value="14" >
+                    <label for="functional_area_id_14"></label>
+                    Business Management <span>2</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_12" value="12" >
+                    <label for="functional_area_id_12"></label>
+                    Bank Operation <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_40" value="40" >
+                    <label for="functional_area_id_40"></label>
+                    Graphic Design <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_74" value="74" >
+                    <label for="functional_area_id_74"></label>
+                    Medicine <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_69" value="69" >
+                    <label for="functional_area_id_69"></label>
+                    Marketing <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_3" value="3" >
+                    <label for="functional_area_id_3"></label>
+                    Admin <span>1</span>
+                </li>                
+                                                                                                <li>
+                    <input type="checkbox" name="functional_area_id[]" id="functional_area_id_9" value="9" >
+                    <label for="functional_area_id_9"></label>
+                    Advertisment <span>1</span>
+                </li>                
+                                                
+            </ul>
+            <!-- title end --> 
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+
+
+        <!-- Top Companies -->
+        <div class="widget">
+            <h4 class="widget-title">Jobs By Company</h4>
+            <ul class="optionlist view_more_ul">
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_1" value="1" >
+                    <label for="company_1"></label>
+                    Power Color <span>2</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_9" value="9" >
+                    <label for="company_9"></label>
+                    Multimedia Design <span>4</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_5" value="5" >
+                    <label for="company_5"></label>
+                    Power Wave <span>2</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_8" value="8" >
+                    <label for="company_8"></label>
+                    Travel Advisor <span>1</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_4" value="4" >
+                    <label for="company_4"></label>
+                    Surf Wave <span>1</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_3" value="3" >
+                    <label for="company_3"></label>
+                    New Design Studio <span>1</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_11" value="11" >
+                    <label for="company_11"></label>
+                    Sphere <span>1</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_7" value="7" >
+                    <label for="company_7"></label>
+                    Connect People <span>2</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_10" value="10" >
+                    <label for="company_10"></label>
+                    Net Design <span>1</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_6" value="6" >
+                    <label for="company_6"></label>
+                    Media Wave <span>1</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_15" value="15" >
+                    <label for="company_15"></label>
+                    Pharma Tech Inc. <span>1</span> 
+                </li>
+                                                                                                <li>
+                    <input type="checkbox" name="company_id[]" id="company_14" value="14" >
+                    <label for="company_14"></label>
+                    Mayan Design Studios <span>1</span> 
+                </li>
+                                                            </ul>
+            <span class="text text-primary view_more hide_vm">View More</span> </div>
+        <!-- Top Companies end --> 
+
+        <!-- Salary -->
+        <div class="widget">
+            <h4 class="widget-title">Salary Range</h4>
+
+
+            <div class="row">
+                <div class="col-6">
+                <div class="form-group">
+                <input class="form-control" id="salary_from" placeholder="Salary From" name="salary_from" type="number">
+            </div>
+                </div>
+                <div class="col-6">
+                <div class="form-group">
+                <input class="form-control" id="salary_to" placeholder="Salary To" name="salary_to" type="number">
+            </div>
+                </div>
+            </div>
+
+            
+           
+           
+
+            <!-- Salary end --> 
+
+            <!-- button -->
+            <div class="searchnt mt-3">
+                <button type="submit" class="btn"><i class="fa fa-search" aria-hidden="true"></i> Search Jobs</button>
+            </div>
+            <!-- button end--> 
+        </div>
+        <!-- Side Bar end --> 
+    </div>
+</div>                
+
+                <div class="col-lg-9"> 
+
+                    <!-- Search List -->
+                     <h3>18 Jobs Found</h3>    
+                    <div class="topstatinfo mb-0">
+                    Showing Jobs : 1 - 18 Total 18
+                    </div>
+
+                    <ul class="featuredlist row">
+
+                        <!-- job start --> 
+
+                          
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6 ">
+                <div class="jobint">
+                                
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Full Time/Permanent</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/ui-ux-designer-required-35" title="UI UX Designer Required">UI UX Designer Requi...</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>$2500 - $3000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Fairbanks</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/multimedia-design-9" title="Multimedia Design">Multimedia Design</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/multimedia-design-9" class="company-logo" title="Multimedia Design"><img src="https://job.cloudhosts.in/admin_assets/no-image.png"  alt="Multimedia Design" title="Multimedia Design"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6 ">
+                <div class="jobint">
+                                
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Contract</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/testte-32" title="Graphic Designer Required">Graphic Designer Req...</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD100000 - USD200000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Bessemer</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/multimedia-design-9" title="Multimedia Design">Multimedia Design</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/multimedia-design-9" class="company-logo" title="Multimedia Design"><img src="https://job.cloudhosts.in/admin_assets/no-image.png"  alt="Multimedia Design" title="Multimedia Design"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Full Time/Permanent</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/full-stack-designer" title="Full Stack Designer">Full Stack Designer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD6000 - USD8000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Barrington</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/connect-people-7" title="Connect People">Connect People</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/connect-people-7" class="company-logo" title="Connect People"><img src="https://job.cloudhosts.in/admin_assets/no-image.png"  alt="Connect People" title="Connect People"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Contract</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/senior-dot-developer" title="Dot Developer">Dot Developer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD6000 - USD12000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Durant</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/power-wave-5" title="Power Wave">Power Wave</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/power-wave-5" class="company-logo" title="Power Wave"><img src="https://job.cloudhosts.in/company_logos/power-wave-1536854843-603.jpg"  alt="Power Wave" title="Power Wave"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Full Time/Permanent</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/seo-expert-28" title="SEO Expert">SEO Expert</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD4000 - USD8000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Blaine</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/mayan-design-studios-14" title="Mayan Design Studios">Mayan Design Studios</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/mayan-design-studios-14" class="company-logo" title="Mayan Design Studios"><img src="https://job.cloudhosts.in/admin_assets/no-image.png"  alt="Mayan Design Studios" title="Mayan Design Studios"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Contract</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/medicine-supervisor-27" title="Medicine Supervisor">Medicine Supervisor</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD6000 - USD10000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> El Dorado</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/pharma-tech-inc-15" title="Pharma Tech Inc.">Pharma Tech Inc.</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/pharma-tech-inc-15" class="company-logo" title="Pharma Tech Inc."><img src="https://job.cloudhosts.in/company_logos/pharma-tech-inc-1536858973-298.jpg"  alt="Pharma Tech Inc." title="Pharma Tech Inc."> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                                <li class="col-lg-12"><div class="jobint text-center"><a href="" target="_blank"><img src=""></a></div></li>
+
+                            
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Full Time/Permanent</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/project-manager-25" title="Project Manager">Project Manager</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD3500 - USD5000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Kaneohe Station</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/multimedia-design-9" title="Multimedia Design">Multimedia Design</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/multimedia-design-9" class="company-logo" title="Multimedia Design"><img src="https://job.cloudhosts.in/admin_assets/no-image.png"  alt="Multimedia Design" title="Multimedia Design"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Contract</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/senior-php-programer-24" title="Senior Php Programer">Senior Php Programer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD6000 - USD12000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Durant</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/net-design-10" title="Net Design">Net Design</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/net-design-10" class="company-logo" title="Net Design"><img src="https://job.cloudhosts.in/company_logos/net-design-1536854391-995.jpg"  alt="Net Design" title="Net Design"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Full Time/Permanent</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/wordpress-developer-23" title="Wordpress Developer">Wordpress Developer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD5000 - USD10000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Barrington</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/connect-people-7" title="Connect People">Connect People</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/connect-people-7" class="company-logo" title="Connect People"><img src="https://job.cloudhosts.in/admin_assets/no-image.png"  alt="Connect People" title="Connect People"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Part Time</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/frontend-developer-22" title="Frontend Developer">Frontend Developer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD5000 - USD9000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Clarksville</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/sphere-11" title="Sphere">Sphere</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/sphere-11" class="company-logo" title="Sphere"><img src="https://job.cloudhosts.in/company_logos/sphere-1536859528-893.jpg"  alt="Sphere" title="Sphere"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Internship</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/web-designer-21" title="Web Designer">Web Designer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD2000 - USD5000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Milton</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/new-design-studio-3" title="New Design Studio">New Design Studio</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/new-design-studio-3" class="company-logo" title="New Design Studio"><img src="https://job.cloudhosts.in/admin_assets/no-image.png"  alt="New Design Studio" title="New Design Studio"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Full Time/Permanent</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/php-developer-required-20" title="Php Developer Required">Php Developer Requir...</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD5000 - USD8000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Alabaster</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/power-color-1" title="Power Color">Power Color</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/power-color-1" class="company-logo" title="Power Color"><img src="https://job.cloudhosts.in/company_logos/power-color-1536854682-955.jpg"  alt="Power Color" title="Power Color"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Contract</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/php-developer-required-6" title="PHP Developer Required">PHP Developer Requir...</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD45000 - USD70000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Atlanta</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/surf-wave-4" title="Surf Wave">Surf Wave</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/surf-wave-4" class="company-logo" title="Surf Wave"><img src="https://job.cloudhosts.in/company_logos/surf-wave-1536855024-252.jpg"  alt="Surf Wave" title="Surf Wave"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Freelance</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/laravel-developer-5" title="Laravel Developer">Laravel Developer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD45000 - USD70000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Canon City</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/travel-advisor-8" title="Travel Advisor">Travel Advisor</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/travel-advisor-8" class="company-logo" title="Travel Advisor"><img src="https://job.cloudhosts.in/company_logos/travel-advisor-1536859060-458.jpg"  alt="Travel Advisor" title="Travel Advisor"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Contract</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/electrical-engineer-4" title="Electrical Engineer">Electrical Engineer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>USD35000 - USD50000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Aventura</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/power-wave-5" title="Power Wave">Power Wave</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/power-wave-5" class="company-logo" title="Power Wave"><img src="https://job.cloudhosts.in/company_logos/power-wave-1536854843-603.jpg"  alt="Power Wave" title="Power Wave"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Full Time/Permanent</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/ios-developer-2" title="IOS Developer">IOS Developer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>PKR60000 - PKR90000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Atlanta</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/multimedia-design-9" title="Multimedia Design">Multimedia Design</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/multimedia-design-9" class="company-logo" title="Multimedia Design"><img src="https://job.cloudhosts.in/admin_assets/no-image.png"  alt="Multimedia Design" title="Multimedia Design"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                         
+                        
+                             
+                            
+                          
+                                
+
+
+              <li class="col-lg-4 col-md-6  featured ">
+                <div class="jobint">
+                 <span class="promotepof-badge"><i class="fa fa-bolt" title="This Job is Featured"></i></span>                 
+
+
+                    <div class="d-flex">
+                        <div class="fticon"><i class="fas fa-briefcase"></i> Full Time/Permanent</div>                        
+                    </div>
+
+                    <h4><a href="https://job.cloudhosts.in/job/uiux-designer-1" title="UI/UX Designer">UI/UX Designer</a>
+                    
+                    
+                </h4>
+                                    
+                    <div class="salary mb-2">Salary: <strong>$30000 - $90000/</strong></div>
+                     
+
+
+                    <strong><i class="fas fa-map-marker-alt"></i> Islamabad</strong> 
+                    
+                    <div class="jobcompany">
+                     <div class="ftjobcomp">
+                        <span>Mar 07, 2025</span>
+                        <a href="https://job.cloudhosts.in/company/power-color-1" title="Power Color">Power Color</a>
+                     </div>
+                    <a href="https://job.cloudhosts.in/company/power-color-1" class="company-logo" title="Power Color"><img src="https://job.cloudhosts.in/company_logos/power-color-1536854682-955.jpg"  alt="Power Color" title="Power Color"> </a>
+                    </div>
+                </div>
+            </li>
+
+
+
+
+
+
+
+						 
+                            
+						
+
+						 
+                        <!-- job end --> 
+
+                                                
+						
+
+						
+
+						
+
+                           
+
+                       
+
+                            <!-- job end -->
+
+                            
+
+						
+
+						
+
+						
+
+                    </ul>
+
+
+
+                    <!-- Pagination Start -->
+
+                    <div class="pagiWrap mt-5">
+
+                        <div class="row">
+
+                            <div class="col-lg-5">
+
+                                <div class="showreslt">
+
+                                    Showing Jobs : 1 - 18 Total 18
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-7 text-right">
+
+                                
+                                
+
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Pagination end --> 
+
+                   
+
+
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="footerWrap"> 
+    <div class="container">
+        <div class="row"> 
+
+            <!--Quick Links-->
+            <div class="col-md-3 col-sm-6">
+                <h5>Quick Links</h5>
+                <!--Quick Links menu Start-->
+                <ul class="quicklinks">
+                    <li><a href="https://job.cloudhosts.in">Home</a></li>
+                    <li><a href="https://job.cloudhosts.in/contact-us">Contact Us</a></li>
+                    <li class="postad"><a href="https://job.cloudhosts.in/post-job">Post a Job</a></li>
+                    <li><a href="https://job.cloudhosts.in/faq">FAQs</a></li>
+                                        
+                    <li class=""><a href="https://job.cloudhosts.in/cms/about-us">About Us</a></li>
+                                        
+                    <li class=""><a href="https://job.cloudhosts.in/cms/terms-of-use">Terms Of Use</a></li>
+                                    </ul>
+            </div>
+            <!--Quick Links menu end-->
+
+            <div class="col-md-3 col-sm-6">
+                <h5>Jobs By Functional Area</h5>
+                <!--Quick Links menu Start-->
+                <ul class="quicklinks">
+                                                            <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=3">Admin</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=633">Information Technology</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=9">Advertisment</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=69">Marketing</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=1">Accountant</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=34">Engineering Construction</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=128">Software &amp; Web Development</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=40">Graphic Design</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=14">Business Management</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?functional_area_id%5B%5D=74">Medicine</a></li>
+                                    </ul>
+            </div>
+
+            <!--Jobs By Industry-->
+            <div class="col-md-3 col-sm-6">
+                <h5>Jobs By Industry</h5>
+                <!--Industry menu Start-->
+                <ul class="quicklinks">
+                                                            <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=7">Advertising/PR</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=3">Banking/Financial Services</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=28">Electronics</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=31">AutoMobile</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=11">Education/Training</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=41">Courier/Logistics</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=32">Fashion</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=10">Manufacturing</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=38">Health &amp; Fitness</a></li>
+                                        <li><a href="https://job.cloudhosts.in/search-jobs?industry_id%5B%5D=24">Travel/Tourism/Transportation</a></li>
+                                    </ul>
+                <!--Industry menu End-->
+                <div class="clear"></div>
+            </div>
+
+            <!--About Us-->
+            <div class="col-md-3 col-sm-12">
+                <h5>Contact Us</h5>
+                <div class="address">123 Street 12, A -12/3
+New Delhi, India</div>
+                <div class="email"> <a href="mailto:info@jobsportal.com">info@jobsportal.com</a> </div>
+                <!-- Social Icons -->
+                <div class="social"><a href="www.facebook.com" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+<a href="www.x.com" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></a>
+<a href="#" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+<a href="www.linkedin.com" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+<a href="#" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+</div>
+                <!-- Social Icons end --> 
+
+            </div>
+            <!--About us End--> 
+
+
+        </div>
+    </div>
+</div>
+<!--Footer end--> 
+<!--Copyright-->
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="bttxt">Copyright &copy; 2025 JOBS PORTAL. All Rights Reserved. Design by: <a href="#" target="_blank">Chatbot Solutions</a></div>
+            </div>
+            <div class="col-md-4">
+                <div class="paylogos"><img src="https://job.cloudhosts.in/images/payment-icons.png" alt="" /></div>	
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js" data-turbolinks-eval="false" data-turbo-eval="false"></script> -->
+    <!-- Bootstrap's JavaScript -->
+
+
+    <script src="https://job.cloudhosts.in/js/jquery.min.js"></script>
+    <script src="https://job.cloudhosts.in/js/popper.js"></script>
+    <script src="https://job.cloudhosts.in/js/bootstrap.bundle.min.js"></script>
+
+
+
+    <!-- Owl carousel -->
+
+    <script src="https://job.cloudhosts.in/js/jquery-ui.min.js"></script>
+
+    <script src="https://job.cloudhosts.in/js/owl.carousel.js"></script>
+
+    <script src="https://job.cloudhosts.in/admin_assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+
+    <script src="https://job.cloudhosts.in/admin_assets/global/plugins/Bootstrap-3-Typeahead/bootstrap3-typeahead.min.js" type="text/javascript"></script>
+
+    <!-- END PAGE LEVEL PLUGINS -->
+
+    <script src="https://job.cloudhosts.in/admin_assets/global/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+
+    <script src="https://job.cloudhosts.in/admin_assets/global/plugins/jquery.scrollTo.min.js" type="text/javascript"></script>
+
+   
+<!-- Revolution Slider -->
+
+<script type="text/javascript" src="https://job.cloudhosts.in/js/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+
+<script type="text/javascript" src="https://job.cloudhosts.in/js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+    
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/additional-methods.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"></script>
+
+   
+    <script src="https://www.google.com/recaptcha/api.js?" async defer></script>
+
+
+     
+
+<script>
+$('.btn-job-alert').on('click', function() {
+		swal({
+		title: "Save Job Alerts",
+		text: "To save Job Alerts you must be Registered and Logged in",
+		icon: "error",
+		buttons: {
+			Login: "Login",
+			register: "Register",
+			hello: "OK",
+		},
+	});
+	
+})
+
+$(document).ready(function($) {
+	$("#search-job-list").submit(function() {
+		$(this).find(":input").filter(function() {
+			return !this.value;
+		}).attr("disabled", "disabled");
+		return true;
+	});
+
+
+	$("#search-job-list").find(":input").prop("disabled", false);
+
+	$(".view_more_ul").each(function () {
+    if ($(this).height() > 100) {
+        $(this).addClass("hide_vm_ul");
+        $(this).next(".view_more").removeClass("hide_vm");
+    }
+});
+
+// "View More" click event
+$(".view_more").on("click", function (e) {
+    e.preventDefault();
+    $(this).prev(".view_more_ul").removeClass("hide_vm_ul");
+    $(this).addClass("hide_vm");
+    $(this).next(".view_less").removeClass("hide_vm");
+});
+
+// "View Less" click event
+$(".view_less").on("click", function (e) {
+    e.preventDefault();
+    $(this).prev(".view_more").removeClass("hide_vm");
+    $(this).prevAll(".view_more_ul").addClass("hide_vm_ul");
+    $(this).addClass("hide_vm");
+});
+
+});
+
+if ($("#submit_alert").length > 0) {
+
+	$("#submit_alert").validate({
+		rules: {
+			email: {
+				required: true,
+				maxlength: 5000,
+				email: true
+			}
+		},
+
+		messages: {
+			email: {
+				required: "Email is required",
+			}
+		},
+
+		submitHandler: function(form) {
+			$.ajaxSetup({
+				headers: {
+					'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+				}
+			});
+
+			$.ajax({
+				url: "https://job.cloudhosts.in/subscribe-alert",
+				type: "GET",
+				data: $('#submit_alert').serialize(),
+				success: function(response) {
+					$("#submit_alert").trigger("reset");
+					$('#show_alert').modal('hide');
+					swal({
+						title: "Success",
+						text: response["msg"],
+						icon: "success",
+						button: "OK",
+					});
+				}
+			});
+		}
+	})
+}
+
+$(document).on('click', '.swal-button--Login', function() {
+	window.location.href = "https://job.cloudhosts.in/login";
+})
+$(document).on('click', '.swal-button--register', function() {
+	window.location.href = "https://job.cloudhosts.in/register";
+})
+
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function ($) {
+    $('#country_id').on('change', function (e) {
+    e.preventDefault();
+    filterStates(0);
+    });
+    $(document).on('change', '#state_id', function (e) {
+    e.preventDefault();
+    filterCities(0);
+    });
+                filterStates(0);
+    });
+    function filterStates(state_id)
+    {
+    var country_id = $('#country_id').val();
+    if (country_id != ''){
+    $.post("https://job.cloudhosts.in/filter-states-dropdown", {country_id: country_id, state_id: state_id, _method: 'POST', _token: 'lIWj0dwtsTeqaBJdvMNofp2OUnm8yTXxWY9VUhw0'})
+            .done(function (response) {
+            $('#state_dd').html(response);
+                                filterCities(0);
+            });
+    }
+    }
+    function filterCities(city_id)
+    {
+    var state_id = $('#state_id').val();
+    if (state_id != ''){
+    $.post("https://job.cloudhosts.in/filter-cities-dropdown", {state_id: state_id, city_id: city_id, _method: 'POST', _token: 'lIWj0dwtsTeqaBJdvMNofp2OUnm8yTXxWY9VUhw0'})
+            .done(function (response) {
+            $('#city_dd').html(response);
+            });
+    }
+    }
+</script>
+
+    <!-- Custom js -->
+
+    <script src="https://job.cloudhosts.in/js/script.js"></script>
+
+    <script type="text/JavaScript">
+
+        $(document).ready(function(){
+
+            $(document).scrollTo('.has-error', 2000);
+
+            });
+
+            function showProcessingForm(btn_id){		
+
+            $("#"+btn_id).val( 'Processing .....' );
+
+            $("#"+btn_id).attr('disabled','disabled');		
+
+            }
+
+		
+
+		setInterval("hide_savedAlert()",7000);
+
+        function hide_savedAlert(){
+
+          $(document).find('.svjobalert').hide();
+
+        }
+
+
+
+        $(document).ready(function(){
+
+            $.ajax({
+
+                type: 'get',
+
+                url: "https://job.cloudhosts.in/check-time",
+
+                success: function(res) {
+
+                        $('.notification').html(res);
+
+                   
+
+                }
+
+            });
+
+        });
+
+		
+
+        </script>
+        <script type="text/javascript">
+    $("#jbsearch").autocomplete({
+        source: function(request, response) {
+            $.ajax({
+                url: "https://job.cloudhosts.in/jobs-autocomplete", // API endpoint to fetch suggestions
+                dataType: "json",
+                data: {
+                    term: request.term
+                },
+                success: function(data) {
+                    response(data);
+                }
+            });
+        },
+        minLength: 2,
+        select: function(event, ui) {
+            // Action after selecting a suggestion
+        }
+    });
+  
+$(document).ready(function () {
+$('.select2-multiple-jobtype').select2({
+placeholder: "Select Multiple Jobtypes",
+allowClear: true
+});
+})
+
+function showAdvanceSearch(){
+    $("#showAdvanceSearchRow").show();
+    $('.select2-multiple-jobtype').select2({
+placeholder: "Select Multiple Jobtypes",
+allowClear: true
+});
+
+    $("#advSearch").hide();
+}
+</script>
+
+</body>
+
+
+
+</html>
